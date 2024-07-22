@@ -1,0 +1,160 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-07-08 15:01:38.477099",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_peqz",
+  "amended_from",
+  "date_and_time",
+  "exit_date_and_time",
+  "column_break_izds",
+  "weighbridge_data_section",
+  "entry_weight",
+  "net_weight",
+  "column_break_jrng",
+  "exit_weight",
+  "incoming_truck_section",
+  "in_driver_name",
+  "in_products",
+  "in_party",
+  "in_manifest_number",
+  "section_break_krva",
+  "out_driver_name",
+  "out_products",
+  "out_party"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_peqz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Loading Transaction",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "date_and_time",
+   "fieldtype": "Datetime",
+   "label": "Entry Date and Time"
+  },
+  {
+   "fieldname": "column_break_izds",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "weighbridge_data_section",
+   "fieldtype": "Section Break",
+   "label": "Weighbridge Data"
+  },
+  {
+   "fieldname": "entry_weight",
+   "fieldtype": "Read Only",
+   "label": "Entry Weight"
+  },
+  {
+   "fieldname": "net_weight",
+   "fieldtype": "Read Only",
+   "label": "Net Weight"
+  },
+  {
+   "fieldname": "column_break_jrng",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "exit_weight",
+   "fieldtype": "Read Only",
+   "label": "Exit Weight"
+  },
+  {
+   "fieldname": "exit_date_and_time",
+   "fieldtype": "Datetime",
+   "label": "Exit Date and Time"
+  },
+  {
+   "fieldname": "incoming_truck_section",
+   "fieldtype": "Section Break",
+   "label": "Incoming Truck"
+  },
+  {
+   "fieldname": "section_break_krva",
+   "fieldtype": "Section Break",
+   "label": "Outgoing Truck"
+  },
+  {
+   "fieldname": "in_driver_name",
+   "fieldtype": "Link",
+   "label": "Driver Name",
+   "options": "Driver"
+  },
+  {
+   "fieldname": "in_products",
+   "fieldtype": "Link",
+   "label": "Products",
+   "options": "Item"
+  },
+  {
+   "fieldname": "in_party",
+   "fieldtype": "Link",
+   "label": "Party",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "in_manifest_number",
+   "fieldtype": "Data",
+   "label": "Manifest Number"
+  },
+  {
+   "fieldname": "out_driver_name",
+   "fieldtype": "Link",
+   "label": "Driver Name",
+   "options": "Driver"
+  },
+  {
+   "fieldname": "out_products",
+   "fieldtype": "Link",
+   "label": "Products",
+   "options": "Item"
+  },
+  {
+   "fieldname": "out_party",
+   "fieldtype": "Link",
+   "label": "Party",
+   "options": "Customer"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2024-07-22 13:58:41.257463",
+ "modified_by": "Administrator",
+ "module": "Weighbridge",
+ "name": "Loading Transaction",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}
