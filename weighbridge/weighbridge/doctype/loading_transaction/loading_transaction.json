@@ -12,6 +12,7 @@
   "column_break_izds",
   "section_break_qagk",
   "entry_weight",
+  "entry_weight_button",
   "exit_weight",
   "net_weight",
   "incoming_truck_section",
@@ -122,12 +123,17 @@
    "fieldname": "net_weight",
    "fieldtype": "Int",
    "label": "Net Weight"
+  },
+  {
+   "fieldname": "entry_weight_button",
+   "fieldtype": "Button",
+   "label": "Read Entry Weight"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-23 15:45:03.804995",
+ "modified": "2024-07-23 16:17:00.671565",
  "modified_by": "Administrator",
  "module": "Weighbridge",
  "name": "Loading Transaction",
