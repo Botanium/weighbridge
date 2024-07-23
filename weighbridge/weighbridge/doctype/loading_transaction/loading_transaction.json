@@ -111,26 +111,23 @@
   {
    "fieldname": "entry_weight",
    "fieldtype": "Int",
-   "label": "Entry Weight",
-   "read_only": 1
+   "label": "Entry Weight"
   },
   {
    "fieldname": "exit_weight",
    "fieldtype": "Int",
-   "label": "Exit Weight",
-   "read_only": 1
+   "label": "Exit Weight"
   },
   {
    "fieldname": "net_weight",
    "fieldtype": "Int",
-   "label": "Net Weight",
-   "read_only": 1
+   "label": "Net Weight"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2024-07-23 15:28:01.309253",
+ "modified": "2024-07-23 15:45:03.804995",
  "modified_by": "Administrator",
  "module": "Weighbridge",
  "name": "Loading Transaction",
